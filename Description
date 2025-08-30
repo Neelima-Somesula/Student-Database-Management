@@ -1,0 +1,70 @@
+Project Name:
+
+Student Database Management
+
+Description:
+
+This project is a centralized student record management system built using Microsoft Power Platform tools: Canvas Apps (Power Apps), Power Automate, and Power BI. It automates administrative workflows, reduces manual tasks, and provides real-time insights into student performance.
+
+Features:
+
+Canvas App (Power Apps):
+
+Manage student records including registration, courses, and grades.
+
+User-friendly interface for administrators and educators.
+
+Power Automate Flows:
+
+Automates approval workflows for student registration or course changes.
+
+Reduces manual intervention and ensures faster processing.
+
+Power BI Dashboard:
+
+Visualizes student performance and academic insights.
+
+Interactive reports for tracking grades, course completion, and trends.
+
+Sample Data:
+
+Includes CSV files for students and courses to test the system.
+
+Project Structure:
+Student-Database-Management/
+│
+├─ CanvasApp/                # Canvas App file and instructions
+├─ PowerAutomateFlows/       # Power Automate Flow JSON and instructions
+├─ PowerBI/                  # Power BI Dashboard file and instructions
+├─ Data/                     # Sample CSV files
+└─ README.md                 # Project overview
+
+How to Use:
+
+Canvas App: Import StudentApp.msapp into Power Apps Studio and connect to the data source.
+
+Power Automate Flow: Import ApprovalFlow.json into Power Automate and configure connections.
+
+Power BI Dashboard: Open StudentDashboard.pbix in Power BI Desktop and load the CSV data.
+
+Optionally, customize the app, flow, or dashboard to fit your organization’s requirements.
+
+Tech Stack:
+
+Microsoft Power Platform
+
+Power Apps (Canvas Apps)
+
+Power Automate
+
+Power BI
+
+CSV / Dataverse for data storage
+
+Benefits:
+
+Reduces manual administrative work.
+
+Provides real-time visualization of academic performance.
+
+Easy to extend or customize for other educational institutions.
